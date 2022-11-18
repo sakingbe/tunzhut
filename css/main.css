@@ -2646,7 +2646,7 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, rgba(37,165,106,0.8) 0%, rgba(37,165,106,0) 100%);
+  background: linear-gradient(45deg, rgba(218, 79, 20, 0.8) 0%, rgba(204, 104, 28, 0) 100%);
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: 2;
