@@ -267,7 +267,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 .header__logo img {
-  width: 100px;
+  width: 160px;
   height: auto;
   display: block;
 }
@@ -5090,7 +5090,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10px;
 }
 .footer__logo img {
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 .footer__tagline {
@@ -5165,7 +5165,7 @@ body::-webkit-scrollbar-thumb {
   filter: grayscale(0.6);
 }
 .footer__content {
-  margin-top: 60px;
+  margin-top: 20px;
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 .footer__copyright {
