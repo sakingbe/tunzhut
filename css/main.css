@@ -967,7 +967,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   border-top: 1px solid #222227;
   transform: translateY(100%);
   transition: transform 0.5s ease;
