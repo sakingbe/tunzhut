@@ -5087,7 +5087,7 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
 }
 .footer__logo {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 .footer__logo img {
   width: 100px;
@@ -5097,7 +5097,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 15px;
   display: block;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1px;
   color: #c0c0c0;
   margin-bottom: 0;
 }
@@ -5130,7 +5130,7 @@ body::-webkit-scrollbar-thumb {
 .footer__social {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
   width: 100%;
