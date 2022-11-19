@@ -795,7 +795,7 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 1px solid #222227;
 }
 .sidebar__logo img {
-  width: 100px;
+  width: 160px;
   height: auto;
   display: block;
 }
