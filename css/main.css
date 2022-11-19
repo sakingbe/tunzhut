@@ -122,31 +122,6 @@ ul {
   padding: 0;
   list-style: none;
 }
-#cookiePopup {
-  position: relative;
-  display: block;
-  background-color: #16151a;
-  margin: 40px auto;
-  width: 100%;
-  max-width: 420px;
-  padding: 20px;
-  border-radius: 12px;
-  overflow: hidden;
-  
-}
-  #cookiePopup p{
-  text-align: left;
-  font-size: 15px;
-  color: white;
-}
-#cookiePopup button{
-  width: 100%;
-  border: navajowhite;
-  background: #da620c;
-  padding: 5px;
-  border-radius: 10px;
-  color: white;
-}
 ::-moz-selection {
   background: #fff;
   color: #222227;
