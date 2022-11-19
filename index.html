@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="https://tunezhut.com.ng/css/slider-radio.css">
 	<link rel="stylesheet" href="https://tunezhut.com.ng/css/plyr.css">
 	<link rel="stylesheet" href="https://tunezhut.com.ng/css/main.css">
-	<link rel="stylesheet" href="https://tunezhut.com.ng/css/cookies.css">
 
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="https://tunezhut.com.ng/icon/favicon-32x32.png" sizes="32x32">
@@ -27,6 +26,7 @@
 </head>
 
 <body>
+	
 	<!-- header -->
 	<header class="header">
 		<div class="header__content">
@@ -545,39 +545,9 @@
 		</div>
 	</footer>
 	<!-- end footer -->
-	<!-- Cookies script -->
-	<div class="wrapper">
-		<img src="img\cookie.png" alt="">
-		<div class="content">
-		  <header>Cookies Consent</header>
-		  <p>This website use cookies to ensure you get the best experience on our website.</p>
-		  <div class="buttons">
-			<button class="item">I understand</button>
-			<a href="#" class="item">Learn more</a>
-		  </div>
-		</div>
-	  </div>
 	
-	  
-<!-- End Cookies script -->
 	<!-- JS -->
-	<script>
-		const cookieBox = document.querySelector(".wrapper"),
-		acceptBtn = cookieBox.querySelector("button");
 	
-		acceptBtn.onclick = ()=>{
-		  //setting cookie for 1 month, after one month it'll be expired automatically
-		  document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
-		  if(document.cookie){ //if cookie is set
-			cookieBox.classList.add("hide"); //hide cookie box
-		  }else{ //if cookie not set then alert an error
-			alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
-		  }
-		}
-		let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
-		//if cookie is set then hide the cookie box else show it
-		checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
-	  </script>
 	
 	<script src="https://tunezhut.com.ng/js/jquery-3.5.1.min.js"></script>
 	<script src="https://tunezhut.com.ng/js/bootstrap.bundle.min.js"></script>
