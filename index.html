@@ -37,7 +37,7 @@
 
 			<nav class="header__nav">			
 				<a href="about.html">About Us</a>
-				<a href="contacts.html">Contact Us</a>
+				<a href="https://forms.gle/JvApSNaqy57tm2Gv6">Contact Us</a>
 			</nav>
 			</div>
 				</div>		
@@ -53,7 +53,13 @@
 		</div>
 	</header>
 	<!-- end header -->
-
+	<!-- Cookies script -->
+	<div id="cookiePopup">
+		<h4>Cookie Consent</h4>
+		<p>Our website uses cookies to provide your browsing experience and relavent informations.Before continuing to use our website, you agree & accept of our  <a href="#">Cookie Policy & Privacy</a></p>
+	   <button id="acceptCookie">Accept</button> 
+	  </div>
+<!-- End Cookies script -->
 	<!-- sidebar -->
 	<div class="sidebar">
 		<!-- sidebar logo -->
@@ -499,7 +505,7 @@
 					<div class="footer__nav">
 						<a href="about.html">About Us</a>
 						<a href="pricing.html">Pricing plans</a>
-						<a href="contacts.html">Contact Us</a>
+						<a href="https://forms.gle/JvApSNaqy57tm2Gv6">Contact Us</a>
 					</div>
 				</div>
 
@@ -547,6 +553,60 @@
 	<!-- end footer -->
 
 	<!-- JS -->
+	<script type="text/javascript">
+		// set cookie according to you
+		var cookieName= "Tunezhut";
+		var cookieValue="";
+		var cookieExpireDays= 30;
+		
+		// when users click accept button
+		let acceptCookie= document.getElementById("acceptCookie");
+		acceptCookie.onclick= function(){
+			createCookie(cookieName, cookieValue, cookieExpireDays);
+		}
+		
+		// function to set cookie in web browser
+		 let createCookie= function(cookieName, cookieValue, cookieExpireDays){
+		  let currentDate = new Date();
+		  currentDate.setTime(currentDate.getTime() + (cookieExpireDays*24*60*60*1000));
+		  let expires = "expires=" + currentDate.toGMTString();
+		  document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
+		  if(document.cookie){
+			document.getElementById("cookiePopup").style.display = "none";
+		  }else{
+			alert("Unable to set cookie. Please allow all cookies site from cookie setting of your browser");
+		  }
+		
+		 }
+		
+		// get cookie from the web browser
+		let getCookie= function(cookieName){
+		  let name = cookieName + "=";
+		  let decodedCookie = decodeURIComponent(document.cookie);
+		  let ca = decodedCookie.split(';');
+		  for(let i = 0; i < ca.length; i++) {
+			let c = ca[i];
+			while (c.charAt(0) == ' ') {
+			  c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+			  return c.substring(name.length, c.length);
+			}
+		  }
+		  return "";
+		}
+		// check cookie is set or not
+		let checkCookie= function(){
+			let check=getCookie(cookieName);
+			if(check==""){
+				document.getElementById("cookiePopup").style.display = "block";
+			}else{
+				
+				document.getElementById("cookiePopup").style.display = "none";
+			}
+		}
+		checkCookie();
+		</script>
 	<script src="https://tunezhut.com.ng/js/jquery-3.5.1.min.js"></script>
 	<script src="https://tunezhut.com.ng/js/bootstrap.bundle.min.js"></script>
 	<script src="https://tunezhut.com.ng/js/owl.carousel.min.js"></script>

@@ -543,6 +543,7 @@ $(document).ready(function () {
 				$('.player__cover img').attr('src', img);
 				audio[0].load();
 				audio[0].play();
+				
 			}
 		}
 	}
