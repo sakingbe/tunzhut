@@ -4664,7 +4664,7 @@ body::-webkit-scrollbar-thumb {
 }
 .footer__title {
   display: block;
-  margin-top: 30px;
+  margin-top: 0px;
   font-size: 16px;
   color: #fff;
   font-family: 'Inter', sans-serif;
