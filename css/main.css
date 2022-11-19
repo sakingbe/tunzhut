@@ -122,6 +122,28 @@ ul {
   padding: 0;
   list-style: none;
 }
+#cookiePopup {
+  background: black;
+  width: 25%;
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  box-shadow: 0px 0px 15px #cccccc;
+  padding: 5px 10px;
+}
+  #cookiePopup p{
+  text-align: left;
+  font-size: 15px;
+  color: white;
+}
+#cookiePopup button{
+  width: 100%;
+  border: navajowhite;
+  background: #da620c;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
 ::-moz-selection {
   background: #fff;
   color: #222227;
@@ -6114,25 +6136,4 @@ body::-webkit-scrollbar-thumb {
   border-radius: 4px !important;
 }
 
- #cookiePopup {
-    background: black;
-    width: 25%;
-    position: fixed;
-    left: 10px;
-    bottom: 20px;
-    box-shadow: 0px 0px 15px #cccccc;
-    padding: 5px 10px;
-  }
-    #cookiePopup p{
-    text-align: left;
-    font-size: 15px;
-    color: white;
-  }
-  #cookiePopup button{
-    width: 100%;
-    border: navajowhite;
-    background: #da620c;
-    padding: 5px;
-    border-radius: 10px;
-    color: white;
-  }
+ 
