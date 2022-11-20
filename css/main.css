@@ -4653,11 +4653,13 @@ body::-webkit-scrollbar-thumb {
 .footer__copyright {
   display: grid;
   display: flex;
+  flex-direction: row;
   font-size: 14px;
   color: #c0c0c0;
   margin-top: 20px;
   margin-bottom: 25px;
   align-items: center;
+  justify-content: center;
 }
 .footer__copyright a {
   color: #c0c0c0;
