@@ -4659,7 +4659,7 @@ body::-webkit-scrollbar-thumb {
   color: #c0c0c0;
   margin-top: 20px;
   margin-bottom: 25px;
-  align-items: center;
+  justify-content: center;
 }
 .footer__copyright a {
   color: #c0c0c0;
