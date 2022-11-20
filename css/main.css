@@ -838,7 +838,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 0;
 }
 .sidebar__nav-link:hover {
-  color: #fff;
+  color: white;
 }
 .sidebar__nav-link:hover svg {
   fill: #da620c;
@@ -855,8 +855,8 @@ body::-webkit-scrollbar-thumb {
 .sidebar__nav-link[aria-expanded="true"]:hover svg {
   fill: #da620c;
 }
-.sidebar__nav-link[aria-expanded="true"] {
-  margin-bottom: 15px;
+.sidebar__nav-link[aria-expanded="true"]
+ margin-bottom: 15px;
 }
 .sidebar__nav-link--active {
   cursor: default;
@@ -4655,6 +4655,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 14px;
   color: #c0c0c0;
   margin-top: 20px;
+  margin-bottom: 15px;
 }
 .footer__copyright a {
   color: #c0c0c0;
