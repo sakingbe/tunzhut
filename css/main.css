@@ -4655,7 +4655,9 @@ body::-webkit-scrollbar-thumb {
   font-size: 14px;
   color: #c0c0c0;
   margin-top: 20px;
-  margin-bottom: 17px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
 }
 .footer__copyright a {
   color: #c0c0c0;
