@@ -1118,6 +1118,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   margin-top: 70px;
   padding: 20px 0 60px;
+  margin-bottom: 10px;
 }
 .main__title {
   display: flex;
