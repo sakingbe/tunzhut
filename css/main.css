@@ -4670,7 +4670,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
 }
 .footer__nav {
   display: flex;
