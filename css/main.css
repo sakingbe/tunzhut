@@ -4655,7 +4655,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   display: flex;
   flex-direction: row;
-  font-size: 14px;
+  font-size: 10px;
   color: #c0c0c0;
   margin-top: 20px;
   margin-bottom: 25px;
