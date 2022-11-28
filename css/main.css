@@ -4441,7 +4441,7 @@ body::-webkit-scrollbar-thumb {
 }
 .article__artist img {
   height: auto;
-  width: 410px !important;
+  width: 300px !important;
   margin-left: 0;
   border-radius: 12px;
 }
