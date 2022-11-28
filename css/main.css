@@ -4442,7 +4442,7 @@ body::-webkit-scrollbar-thumb {
 .article__artist img {
   height: auto;
   width: 420px !important;
-  margin-right: 20px;
+  margin-left: 0;
   border-radius: 12px;
 }
 .article__artist div {
