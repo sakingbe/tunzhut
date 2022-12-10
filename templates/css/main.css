@@ -2399,16 +2399,16 @@ body::-webkit-scrollbar-thumb {
 ==============================*/
 .release {
   margin-top: 20px;
-  border: 1px solid #222227;
-  background-color: #16151a;
+  border: 1px solid #88f108;
+  background-color: #3912d3;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 9px;
   position: release;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  
   align-items: flex-start;
-  width: 100%;
+  width: 90%;
 }
 .release__cover {
   display: block;
@@ -2433,7 +2433,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: #c0c0c0;
+  color: #fefefe;
   font-size: 14px;
   transition: 0.5s ease;
   width: 100%;
