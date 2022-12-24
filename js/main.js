@@ -402,7 +402,7 @@ $(document).ready(function () {
 			</button>
 
 			<div class="plyr__volume">
-				<input data-plyr="volume" type="range" min="0" max="1" step="0.05" value="1" autocomplete="off" aria-label="Volume">
+				<input data-plyr="volume" type="range" min="0" max="1" step="0.08" value="1" autocomplete="off" aria-label="Volume">
 			</div>
 
 			<a href="release.html" class="plyr__control" aria-label="Playlist">
@@ -414,7 +414,7 @@ $(document).ready(function () {
 	`;
 	var player = new Plyr('#audio', {
 		controls,
-		volume: 0.5,
+		volume: 0.8,
 	});
 
 	var audio = $('#audio');
